@@ -4,4 +4,4 @@ COPY main.py ./
 VOLUME [ "/data" ]
 ENV repo_id=bert-base-chinese
 RUN pip --no-cache-dir install huggingface_hub && python main.py
-CMD [ "cp","-r","models","/data" ]
+CMD [ "cp","-r","models/*","/data" ]
