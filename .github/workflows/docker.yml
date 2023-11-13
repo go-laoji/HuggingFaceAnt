@@ -20,7 +20,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v5
       with:
-        images: golaoji/huggingfacepuller
+        images: golaoji/HuggingFaceAnt
         tags: |
           type=raw,value=latest
           type=ref,event=tag
