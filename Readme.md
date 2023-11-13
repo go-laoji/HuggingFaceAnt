@@ -11,7 +11,7 @@
 
 ## 修改配置
 
-* 配置docker hub的`token` 在此[连接](),参考下图
+* 配置docker hub的`token` 在此[连接](https://hub.docker.com/settings/security),参考下图
   ![dockerhub](images/dockerhub.png)
 * 配置fork后的仓库`Actions secrets` 参考下图
   ![github](images/github.png)
